@@ -1,2 +1,18 @@
-# vertical-center
-水平垂直居中，这是一道面试必考题，^_^ 
+# css 水平居中 #
+
+
+----------
+
+
+居中元素不定宽高：
+    - absolute + transform
+    - lineheight
+    - writing-mode
+    - css-table
+    - flex
+
+### absolute + transform ###
+
+
+
+### lineheight ###
