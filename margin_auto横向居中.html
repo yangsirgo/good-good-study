@@ -25,3 +25,8 @@
 </body>
 </html>
 // 只能做到横向居中，不能垂直居中
+// 原理是：
+margin-top:auto和margin-bottom:auto的计算值是0，所以margin:auto只是水平居中了。
+
+只要把top/bottom/left/right都设置成0,并给元素限制宽高，然后再设置margin:auto就可以实现了。
+issue 里面有demo
